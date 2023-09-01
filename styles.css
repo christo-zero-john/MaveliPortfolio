@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+}
+
+nav{
+    width: 100%;
+}
+
+.logo{
+    width: 50px;
+    height: auto;
+}
+
+.navItem{
+    color: gold;
+}
+
+
+.sec1 h1{
+    display: inline-block;
+    font-size: 50px;
+    color: orange;
+    margin-bottom: 20px;
+}
+
+span{
+    font-size: 47px;
+    color: #755f36;
+}
+
+.sec1 p{
+    color: #747171;
+    line-height: 22px;
+}
+
+.sec1 a{
+    background-color: #ffae00;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin:30px 0;
+    border-radius: 5px;
+    text-shadow: 0 0 5px #000;
+}
+
+.sec1 a:active{
+    background-color: #ab7501;
+    text-shadow: 0 2px 5px #000;
+}
+
+.heroPic{
+    width: 100%;
+    transform: translateX(0%);
+    transition: transform 1s;
+}
+
+.heroPic:hover{
+    transform: translate(5%, 5%);
+}
+
+.navbar-toggler{
+    background-color: #ffffff69;
+    scale: 50%;
+    border-radius: 10px;
+}
