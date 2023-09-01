@@ -2,6 +2,7 @@ body{
     background-color: black;
 }
 
+
 .body1{
     
     background: url(img/bgimg3.jpg);
@@ -10,7 +11,7 @@ body{
 }
 
 nav{
-    width: 100%;
+    min-width: 100%;
 }
 
 .logo{
@@ -18,17 +19,12 @@ nav{
     height: auto;
 }
 
-.navItem{
-    color: gold;
-}
-
-
-
 
 .navbar-toggler{
     background-color: #ffffff69;
     scale: 50%;
     border-radius: 10px;
+    min-width: fit-content;
 }
 
 .sec1-1 :nth-child(n){
@@ -37,20 +33,28 @@ nav{
 
 .nav-item{
     opacity: 50%;
-    color: white;
+    color: gold;
+    text-decoration: none;
+    margin: 5px 15px;
+}
+
+.nav-item:hover{
+    text-decoration: none;
+    color: rgb(84, 72, 4);
 }
 
 .sec1 {
-    width: 100%;
-    height: 98vh;
+    min-width: 100%;
+    min-height: 98vh;
 }
 
 
 .sec1 h1{
     display: inline-block;
-    font-size: 50px;
+    font-size: 60px;
     color: orange;
     margin-bottom: 20px;
+    font-weight: 600;
 }
 
 span{
@@ -63,11 +67,12 @@ span{
     text-shadow: 0 0 2px #000000;
     font-size: 25px;
     line-height: 30px;
+    font-weight: 200;
+    font-style: italic;
 }
 
 .sec1 a{
-    background: url(img/btnbg.jpg);
-    background-size: contain;
+    background-color: #ab7501;
     padding: 10px 18px;
     text-decoration: none;
     font-weight: bold;
@@ -81,7 +86,8 @@ span{
 }
 
 .sec1 a:active{
-    background-color: #ab7501;
+    background: url(img/btnbg.jpg);
+    background-size: contain;
     text-shadow: 0 2px 5px #000;
 }
 
@@ -101,5 +107,8 @@ span{
     border-radius: 5px;
 }
 
-.nav-item:hover{opacity: 100%;
+
+/* Fonts */
+.poppins{
+    font-family: 'Poppins', sans-serif;
 }
