@@ -10,6 +10,10 @@ body{
     background-size: cover;
 }
 
+.body2{
+    background-color: rgb(4, 0, 0);
+}
+
 nav{
     min-width: 100%;
 }
@@ -107,8 +111,44 @@ span{
     border-radius: 5px;
 }
 
+.legend{
+    color: rgb(251, 255, 255);
+    padding: 2vw;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 400;
+    opacity: 100%;
+    text-shadow: 0 0 5px black;
+
+}
+
+.legend-bg{
+    width: 100vw;
+    height: 100vh;
+    background: url(img/legendbg.jpg);
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    opacity: 0.5;
+
+}
+
+.legendHead{
+    color: violet;
+    padding: 3px 10px;
+    margin: 0 auto 5% auto;
+    border-bottom: 0.1px solid white;
+    border-right: 0.1px ridge white;
+    width: fit-content;
+    
+    border-radius: 5px;
+}
 
 /* Fonts */
 .poppins{
     font-family: 'Poppins', sans-serif;
+}
+
+.exo2{
+    font-family: 'Exo 2', sans-serif;
 }
