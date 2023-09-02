@@ -35,14 +35,14 @@ nav{
     margin-top: 20px;
 }
 
-.nav-item{
+.nav-link{
     opacity: 50%;
     color: gold;
     text-decoration: none;
     margin: 5px 15px;
 }
 
-.nav-item:hover{
+.nav-link:hover{
     text-decoration: none;
     color: rgb(84, 72, 4);
 }
