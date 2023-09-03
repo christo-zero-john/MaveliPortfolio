@@ -313,6 +313,21 @@ iframe{
     margin: 0 auto;
     width: fit-content;
 }
+
+.corosalTxt{
+    color: aqua;
+    font-family: orbitron;
+    text-align: center;
+}
+
+.carousel-item{
+    height: 75vh;
+    width: 100vw;
+}
+
+
+
+
 /* Fonts */
 .poppins1{
     font-family: 'Poppins', sans-serif;
