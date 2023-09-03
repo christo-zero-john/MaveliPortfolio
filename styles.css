@@ -1,5 +1,16 @@
+/* Import */
+
+  @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+
 body{
     background-color: black;
+}
+
+a{
+    text-decoration: none;
 }
 
 
@@ -14,8 +25,11 @@ body{
     background-color: rgb(4, 0, 0);
 }
 
+
+
 nav{
     min-width: 100%;
+
 }
 
 .logo{
@@ -26,7 +40,7 @@ nav{
 
 .navbar-toggler{
     background-color: #ffffff69;
-    scale: 50%;
+    scale: 80%;
     border-radius: 10px;
     min-width: fit-content;
 }
@@ -58,20 +72,43 @@ nav{
     font-size: 60px;
     color: orange;
     margin-bottom: 20px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
-span{
+
+.sec1 h1:hover{
+    animation-name: indrasenanHover;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes indrasenanHover {
+    0%{
+        opacity: 100%;
+    }
+    50%{
+        opacity: 40%;
+    }
+    100%{
+        opacity: 100%;
+    }
+    
+}
+
+
+.sec1 span{
     font-size: 47px;
     color: #755f36;
 }
 
 .sec1 p{
-    color: #9d9797;
-    text-shadow: 0 0 2px #000000;
+    color: #00ffb3;
+    opacity: 0.6;
+    text-shadow: 0 0 5px #000000;
     font-size: 25px;
     line-height: 30px;
-    font-weight: 200;
+    font-weight: 500;
     font-style: italic;
 }
 
@@ -86,14 +123,18 @@ span{
     text-shadow: 0 0 5px #000;
     
     position: absolute;
-    bottom: 10%;
+    bottom:2%;
 }
 
 .sec1 a:active{
-    background: url(img/btnbg.jpg);
+    background:white;
+    color: #ab7501;
     background-size: contain;
     text-shadow: 0 2px 5px #000;
+    transition: color 0.3s, background 0.3s;
 }
+
+
 
 .heroPic{
     width: 100%;
@@ -102,7 +143,7 @@ span{
 }
 
 .heroPic:hover{
-    transform: translate(5%, 5%);
+    transform: translateX(5%);
 }
 
 .navbar-nav{
@@ -144,11 +185,147 @@ span{
     border-radius: 5px;
 }
 
+
+
+.sec2{
+    line-height: 35px;
+    min-height: 88vh;
+    background-color: #8a7413;
+}
+
+.sec2 p{
+    font-size: 20px;
+    color: black;
+    font-style: oblique;
+    font-weight: 300;
+    text-shadow: 0 0 5px #ffffff9c;
+    scale: 0.9;
+}
+
+.sec2 img{
+    border-radius: 5px;
+}
+
+.sec3{
+    min-height: 80vh;
+    width: 100%;
+    background: gold;
+}
+
+.Card{
+    margin:3vw 3vw;
+    padding: 4% 8%;
+    background-color: #0000007d;
+    min-width: fit-content;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px 1px rgb(0, 0, 0);
+}
+
+.Card hr{
+    border: 1px solid red;
+    width: 100%;
+}
+
+.Card a{
+    margin:0;
+    padding: 10px 20px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+    transition: color 0.2s;
+    background-color: #ffde50;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.Card a:hover{
+    color: #ffe100;
+    background-color: #504915;
+}
+
+.Card a:active{
+    box-shadow: -2px -2px 2px 2px transparent, 2px 2px 3px 1px black;
+}
+
+
+
+.cardIcon{
+    display: inline-block;
+    text-align: center;
+    width: 5rem;
+}
+
+.biography{
+    width: 100vw;
+    height: 100vh;
+}
+
+.biographyNav{
+    position: absolute;
+    opacity: 0.2;
+    transition: opacity 1s ease-in-out;
+}
+
+
+.biographyNav:hover{
+    opacity: 1;
+}
+
+.biographyHead{
+    font-size: 1rem;
+    margin: 10px auto;
+    color: wheat;
+    font-weight: 200;
+}
+
+.nav1{
+    display: hidden;
+    background-color: black;
+}
+
+iframe{
+    margin-top: 20vh;
+}
+
+
+.footer{
+    font-size: 1rem;
+    padding: 2%;
+    width: 100%;
+    
+}
+
+.ft{
+    color: white;
+    opacity: 0.5;
+}
+
+.tesNic{
+    color: rgb(0, 255, 242);
+    opacity: 1;
+    
+}
+
+.ftDiv{
+    margin: 0 auto;
+    width: fit-content;
+}
 /* Fonts */
-.poppins{
+.poppins1{
     font-family: 'Poppins', sans-serif;
 }
 
 .exo2{
     font-family: 'Exo 2', sans-serif;
+}
+
+.rajdhani{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.orbitron{
+    font-family: 'Orbitron', sans-serif;
 }
