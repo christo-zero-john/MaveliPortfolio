@@ -73,7 +73,6 @@ nav{
     color: orange;
     margin-bottom: 20px;
     font-weight: 700;
-    scale: 0.9;
     transition: scale 0.3s;
 }
 
@@ -82,7 +81,7 @@ nav{
     animation-name: indrasenanHover;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
-    scale: 1;
+    scale: 1.1;
 
 }
 
@@ -119,42 +118,16 @@ nav{
     background-color: #0000009c;
     position: absolute;
     bottom: 2%;
-    scale: 0.9;
     transition: scale 0.3s;
 }
 
 .sec1 a:hover{
-    scale: 1;
+    scale: 1.1;
 }
-
-
-/* .sec1 a{
-    background-color: #ab7501;
-    padding: 10px 18px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #fff;
-    display: inline-block;
-    border-radius: 5px;
-    text-shadow: 0 0 5px #000;
-    
-    position: absolute;
-    bottom:2%;
-}
-
-.sec1 a:active{
-    background:white;
-    color: #ab7501;
-    background-size: contain;
-    text-shadow: 0 2px 5px #000;
-    transition: color 0.3s, background 0.3s;
-} */
-
 
 
 .heroPic{
     width: 100%;
-    scale: 0.9;
     transform: translateX(0%);
     transition: scale 1s, transform 0.5s;
 }
@@ -162,7 +135,7 @@ nav{
 .heroPic:hover{
     transform: translateX(5%);
     
-    scale: 1;
+    scale: 1.1;
 }
 
 .navbar-nav{
@@ -200,13 +173,12 @@ nav{
     border-bottom: 0.1px solid white;
     border-right: 0.1px ridge white;
     width: fit-content;
-    scale: 0.9;
     transition: scale 0.3s;
     border-radius: 5px;
 }
 
 .legendHead:hover{
-    scale: 1;
+    scale: 1.1;
 }
 
 .sec2{
@@ -221,22 +193,20 @@ nav{
     font-style: oblique;
     font-weight: 300;
     text-shadow: 0 0 5px #ffffff9c;
-    scale: 0.9;
     transition: scale 0.3s;
 }
 
 .sec2 p:hover{
-    scale: 1;
+    scale: 1.1;
 }
 
-.sec2 img{
-    border-radius: 5px;
-    scale: 0.9;
-    transition: scale 0.3s;
+.sec2Img{
+    border-radius: 10%;
+
 }
 
 .sec2 img:hover{
-    scale: 1;
+    scale: 1.1;
 }
 
 .sec3{
@@ -253,41 +223,17 @@ nav{
     border: 1px solid white;
     border-radius: 5px;
     box-shadow: 1px 2px 2px 1px rgb(0, 0, 0);
-    scale: 0.9;
     transition: scale 0.3s;
 }
 
 .Card:hover{
-    scale: 1;
+    scale: 1.1;
 }
 
 .Card hr{
     border: 1px solid red;
     width: 100%;
 }
-/* 
-.Card a{
-    margin:0;
-    padding: 10px 20px;
-    border-radius: 7px;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-size: 1.5rem;
-    font-weight: 600;
-    
-    transition: color 0.2s;
-    background-color: #ffde50;
-    transition: color 0.3s, background-color 0.3s;
-}
-
-.Card a:hover{
-    color: #ffe100;
-    background-color: #504915;
-}
-
-.Card a:active{
-    box-shadow: -2px -2px 2px 2px transparent, 2px 2px 3px 1px black;
-} */
 
 .Card a{
     text-decoration: none;
@@ -384,10 +330,15 @@ iframe{
     font-family: rajdhani;
     position: absolute;
     top: 37%;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
     opacity: 0.8;
     text-shadow: 0 0 5px rgb(0, 255, 200);
+    transition: scale 0.4s;
+}
+
+.corosalTxt:hover{
+    scale: 1.1;
 }
 
 
