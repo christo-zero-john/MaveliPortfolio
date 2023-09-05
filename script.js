@@ -5,6 +5,9 @@ var portfolio = document.getElementById("portfolio");
 var resources = document.getElementById("resources");
 var gallery = document.getElementById("gallery");
 var footer = document.getElementById("footer");
+var button = document.getElementById("messageForm");
+var messageForm = document.getElementById("messageForm");
+var Name = document.getElementById("name");
 
 var navBar = `<nav class="navbar navbar-expand-md navbar-light bg-transparent">
 
@@ -28,6 +31,14 @@ var footerTxt = `<div class="footer rajdhani">
     <span class="ft ">Copyright </span> <span class="tesNic orbitron">
         Tesnic.io</span> <span class="ft">2023</span>
 </div>`
+
+function Message(){
+  messageForm.classList = messageForm.classList - "d-none";
+}
+
+function SubMit(){
+    alert("Thank you "+ Name.value +" for Your Message");
+}
 
 footer.innerHTML = footerTxt;
 nav.innerHTML = navBar;

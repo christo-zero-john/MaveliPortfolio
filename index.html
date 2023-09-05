@@ -113,6 +113,20 @@
             </div>
             <div style="height:100vh"></div>
 
+            <div class="message m-3 d-flex flex-column justify-content-center align-items-center col-12">
+              
+              <p onclick="Message()" class=" btn btn-outline-danger messageLabel" id="formBtn"> Leave me a Message</p>
+
+              <div class="messageForm d-none"  id="messageForm">
+                
+                <form action="#">
+                  <input type="text" placeholder="Enter Your Name" id="name">
+                <input type="text" placeholder="Enter Your Message">
+                <input onclick="SubMit()" class="btn btn-outline-danger bg-light pt-0 pb-0 pr-3 text-danger font-weight-bold" type="submit">
+                </form>
+              </div>
+            </div>
+
             
             <div class="col-12 bg-dark" id="footer"></div>
         </div>
