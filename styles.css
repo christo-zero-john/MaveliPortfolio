@@ -73,6 +73,8 @@ nav{
     color: orange;
     margin-bottom: 20px;
     font-weight: 700;
+    scale: 0.9;
+    transition: scale 0.3s;
 }
 
 
@@ -80,6 +82,7 @@ nav{
     animation-name: indrasenanHover;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
+    scale: 1;
 
 }
 
@@ -113,6 +116,19 @@ nav{
 }
 
 .sec1 a{
+    background-color: #0000009c;
+    position: absolute;
+    bottom: 2%;
+    scale: 0.9;
+    transition: scale 0.3s;
+}
+
+.sec1 a:hover{
+    scale: 1;
+}
+
+
+/* .sec1 a{
     background-color: #ab7501;
     padding: 10px 18px;
     text-decoration: none;
@@ -132,18 +148,21 @@ nav{
     background-size: contain;
     text-shadow: 0 2px 5px #000;
     transition: color 0.3s, background 0.3s;
-}
+} */
 
 
 
 .heroPic{
     width: 100%;
+    scale: 0.9;
     transform: translateX(0%);
-    transition: transform 0.5s;
+    transition: scale 1s, transform 0.5s;
 }
 
 .heroPic:hover{
     transform: translateX(5%);
+    
+    scale: 1;
 }
 
 .navbar-nav{
@@ -181,16 +200,19 @@ nav{
     border-bottom: 0.1px solid white;
     border-right: 0.1px ridge white;
     width: fit-content;
-    
+    scale: 0.9;
+    transition: scale 0.3s;
     border-radius: 5px;
 }
 
-
+.legendHead:hover{
+    scale: 1;
+}
 
 .sec2{
     line-height: 35px;
     min-height: 88vh;
-    background-color: #8a7413;
+    background-color: #c4bebe;
 }
 
 .sec2 p{
@@ -200,33 +222,50 @@ nav{
     font-weight: 300;
     text-shadow: 0 0 5px #ffffff9c;
     scale: 0.9;
+    transition: scale 0.3s;
+}
+
+.sec2 p:hover{
+    scale: 1;
 }
 
 .sec2 img{
     border-radius: 5px;
+    scale: 0.9;
+    transition: scale 0.3s;
+}
+
+.sec2 img:hover{
+    scale: 1;
 }
 
 .sec3{
     min-height: 80vh;
     width: 100%;
-    background: gold;
+    background: rgb(255, 255, 255);
 }
 
 .Card{
     margin:3vw 3vw;
     padding: 4% 8%;
-    background-color: #0000007d;
+    background-color: #00000023;
     min-width: fit-content;
     border: 1px solid white;
     border-radius: 5px;
     box-shadow: 1px 2px 2px 1px rgb(0, 0, 0);
+    scale: 0.9;
+    transition: scale 0.3s;
+}
+
+.Card:hover{
+    scale: 1;
 }
 
 .Card hr{
     border: 1px solid red;
     width: 100%;
 }
-
+/* 
 .Card a{
     margin:0;
     padding: 10px 20px;
@@ -248,8 +287,12 @@ nav{
 
 .Card a:active{
     box-shadow: -2px -2px 2px 2px transparent, 2px 2px 3px 1px black;
-}
+} */
 
+.Card a{
+    text-decoration: none;
+    color: black;
+}
 
 
 .cardIcon{
@@ -315,7 +358,7 @@ iframe{
 }
 
 .corosalTxt{
-    color: aqua;
+    color: rgb(255, 200, 0);
     font-family: orbitron;
     text-align: center;
 }
@@ -323,8 +366,29 @@ iframe{
 .carousel-item{
     height: 75vh;
     width: 100vw;
+    background-size: cover;
+    background-image: url(img/kerala.jpeg);
 }
 
+.corosalBg{
+    height: 100%;
+    background-color: #0000003e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.corosalTxt{
+    height: 100%;
+    font-family: rajdhani;
+    position: absolute;
+    top: 37%;
+    font-size: 4rem;
+    font-weight: bold;
+    opacity: 0.8;
+    text-shadow: 0 0 5px rgb(0, 255, 200);
+}
 
 
 

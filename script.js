@@ -17,7 +17,7 @@ var navBar = `<nav class="navbar navbar-expand-md navbar-light bg-transparent">
     <a class="nav-item font-weight-bold text-warning nav-link" href="index.html" id="home">Home </a>
     <a class="nav-item font-weight-bold text-warning nav-link" href="legend.html" id="theLegend">The Legend</a>
     <a class="nav-item font-weight-bold text-warning nav-link" href="biography.html" id="portfolio">Biography</a>
-    <a class="nav-item font-weight-bold text-warning nav-link" href="#myth" id="resources">The Myth</a>
+    <a class="nav-item font-weight-bold text-warning nav-link" href="https://youtu.be/0vA_RGHS438?si=wzXL3_eJ2i6Arsfd" id="resources">The Myth</a>
     <a class="nav-item font-weight-bold text-warning nav-link" href="onam.html" id="gallery">Onam</a>
   </div>
 </div>
