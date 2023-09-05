@@ -73,7 +73,8 @@ nav{
     color: orange;
     margin-bottom: 20px;
     font-weight: 700;
-    transition: scale 0.3s;
+    scale: 0.9;
+    transition: scale 0.4s;
 }
 
 
@@ -81,7 +82,7 @@ nav{
     animation-name: indrasenanHover;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
-    scale: 1.1;
+    scale: 1;
 
 }
 
@@ -118,7 +119,7 @@ nav{
     background-color: #0000009c;
     position: absolute;
     bottom: 2%;
-    transition: scale 0.3s;
+    transition: scale 0.4s;
 }
 
 .sec1 a:hover{
@@ -129,13 +130,14 @@ nav{
 .heroPic{
     width: 100%;
     transform: translateX(0%);
+    scale: 0.9;
     transition: scale 1s, transform 0.5s;
 }
 
 .heroPic:hover{
     transform: translateX(5%);
     
-    scale: 1.1;
+    scale: 1;
 }
 
 .navbar-nav{
@@ -173,12 +175,13 @@ nav{
     border-bottom: 0.1px solid white;
     border-right: 0.1px ridge white;
     width: fit-content;
-    transition: scale 0.3s;
+    scale: 0.9;
+    transition: scale 0.4s;
     border-radius: 5px;
 }
 
 .legendHead:hover{
-    scale: 1.1;
+    scale: 1;
 }
 
 .sec2{
@@ -193,15 +196,17 @@ nav{
     font-style: oblique;
     font-weight: 300;
     text-shadow: 0 0 5px #ffffff9c;
-    transition: scale 0.3s;
+    scale: 0.9;
+    transition: scale 0.4s;
 }
 
 .sec2 p:hover{
-    scale: 1.1;
+    scale: 1;
 }
 
 .sec2Img{
     border-radius: 10%;
+    transition: scale 0.4s;
 
 }
 
@@ -223,7 +228,7 @@ nav{
     border: 1px solid white;
     border-radius: 5px;
     box-shadow: 1px 2px 2px 1px rgb(0, 0, 0);
-    transition: scale 0.3s;
+    transition: scale 0.4s;
 }
 
 .Card:hover{
@@ -237,7 +242,18 @@ nav{
 
 .Card a{
     text-decoration: none;
-    color: black;
+    color: rgb(246, 248, 248);
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.553);
+}
+
+.Card h1{
+    
+    transition: scale 0.5s;
+    background-color: #0000007f;
+}
+
+.Card h1:hover{
+    scale: 1.1;
 }
 
 
@@ -245,6 +261,11 @@ nav{
     display: inline-block;
     text-align: center;
     width: 5rem;
+    transition: scale 0.6s;
+}
+
+.cardIcon:hover{
+    scale: 1.1;
 }
 
 .biography{
